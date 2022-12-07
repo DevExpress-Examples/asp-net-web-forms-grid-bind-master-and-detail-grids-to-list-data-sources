@@ -5,7 +5,7 @@ Imports System.Configuration
 Imports System.Collections
 Imports System.Web
 Imports System.Web.UI
-Imports DevExpress.Web.ASPxGridView
+Imports DevExpress.Web
 Imports System.Collections.Generic
 Imports System.Linq
 
