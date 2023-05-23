@@ -9,7 +9,7 @@ This example demonstrates how to create `List` data sources and bind master and 
 
 ## Overview
 
-Create a [List](https://learn.microsoft.com/en-us/dotnet/api/system.collections.generic.list-1?view=net-7.0) data source for a master grid with an `ID` field. Then create a [List](https://learn.microsoft.com/en-us/dotnet/api/system.collections.generic.list-1?view=net-7.0) data source for detail grids. The detail data source contains two fields: `ID` and `ParentID` that corresponds to the master data source's `ID` field.
+Create a [List](https://learn.microsoft.com/en-us/dotnet/api/system.collections.generic.list-1?view=net-7.0) data source for a master grid with an `ID` field. Then create a [List](https://learn.microsoft.com/en-us/dotnet/api/system.collections.generic.list-1?view=net-7.0) data source for detail grids. The detail data source contains two fields: `ID` and `ParentID`. The `ParentID` field corresponds to the master data source's `ID` field.
 
 ```cs
 public static List<Parent> CreateMasterData(int masterRowCount) {
