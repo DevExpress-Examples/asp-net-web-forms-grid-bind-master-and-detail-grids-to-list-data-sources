@@ -1,10 +1,7 @@
 <%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="EditableDetails._Default" %>
 
-<%@ Register Assembly="DevExpress.Web.v13.2, Version=13.2.15.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a"
-    Namespace="DevExpress.Web" TagPrefix="dxe" %>
-
-<%@ Register Assembly="DevExpress.Web.v13.2, Version=13.2.15.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a"
-    Namespace="DevExpress.Web" TagPrefix="dxwgv" %>
+<%@ Register Assembly="DevExpress.Web.v22.1, Version=22.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a"
+    Namespace="DevExpress.Web" TagPrefix="dx" %>
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 
@@ -15,16 +12,16 @@
 <body>
     <form id="form1" runat="server">
         <div>
-            <dxwgv:ASPxGridView ID="masterGrid" runat="server" AutoGenerateColumns="true" KeyFieldName="ID">
+            <dx:ASPxGridView ID="masterGrid" runat="server" AutoGenerateColumns="true" KeyFieldName="ID">
                 <Templates>
                     <DetailRow>
-                        <dxwgv:ASPxGridView ID="detailGrid" runat="server" AutoGenerateColumns="true"
+                        <dx:ASPxGridView ID="detailGrid" runat="server" AutoGenerateColumns="true"
                             KeyFieldName="ID" OnBeforePerformDataSelect="detailGrid_BeforePerformDataSelect">
-                        </dxwgv:ASPxGridView>
+                        </dx:ASPxGridView>
                     </DetailRow>
                 </Templates>
                 <SettingsDetail ShowDetailRow="True" />
-            </dxwgv:ASPxGridView>
+            </dx:ASPxGridView>
         </div>
     </form>
 </body>
