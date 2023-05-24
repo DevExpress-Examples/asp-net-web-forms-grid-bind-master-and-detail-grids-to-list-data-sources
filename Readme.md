@@ -5,7 +5,7 @@
 <!-- default badges end -->
 # Grid View for ASP.NET Web Forms - How to implement the master-detail functionality with list data sources
 <!-- run online -->
-**[[Run Online]](https://codecentral.devexpress.com/e5018/)**
+**[[Run Online]](https://codecentral.devexpress.com/128534565/)**
 <!-- run online end -->
 
 This example demonstrates how to create `List` data sources and bind master and detail grids to those data sources.
